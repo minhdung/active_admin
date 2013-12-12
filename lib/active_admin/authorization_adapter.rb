@@ -6,6 +6,7 @@ module ActiveAdmin
     CREATE  = :create
     UPDATE  = :update
     DESTROY = :destroy
+    CHANGE = :change
   end
 
   Auth = Authorization

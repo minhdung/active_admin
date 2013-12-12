@@ -29,7 +29,8 @@ module ActiveAdmin
         :create  => ActiveAdmin::Authorization::CREATE,
         :edit    => ActiveAdmin::Authorization::UPDATE,
         :update  => ActiveAdmin::Authorization::UPDATE,
-        :destroy => ActiveAdmin::Authorization::DESTROY
+        :destroy => ActiveAdmin::Authorization::DESTROY,
+        :change => ActiveAdmin::Authorization::CHANGE
       }
 
       included do
